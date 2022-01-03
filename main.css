@@ -1,8 +1,21 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.colorName {
+  padding: 0.25rem 0.5rem;
+  border: 3px solid #fefefe;
+  border-radius: 7px;
+  color: #000;
+  background: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  outline: none;
 }
 
 .colorBtn {
